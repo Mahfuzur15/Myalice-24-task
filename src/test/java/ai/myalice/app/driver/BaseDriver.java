@@ -22,7 +22,7 @@ public class BaseDriver {
 
 		String browser = "chrome";
 
-		// Check if it is 'firefox'
+		// Check if it is 'firefoxx'
 		if (browser.equalsIgnoreCase("firefox")) {
 			// create firefox
 			driver = new FirefoxDriver();
@@ -42,7 +42,7 @@ public class BaseDriver {
 
 		} else {
 			// If no browser is passed throw exception
-			throw new Exception("Incorrect Browser");
+			throw new Exception("Incorrect Browsere");
 		}
 
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
