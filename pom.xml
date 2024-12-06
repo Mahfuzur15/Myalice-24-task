@@ -49,12 +49,10 @@
                 <executions>
                     <execution>
                         <configuration>
-                            <forkCount>3</forkCount>
-                            <reuseForks>true</reuseForks>
-                            <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
+                          
                             <testFailureIgnore>true</testFailureIgnore>
                             <includes>
-                                <includesFile>**/*AllTestCases</includesFile>
+                                <includesFile>**/*AllTestCases.java</includesFile>
                             </includes>
                         </configuration>
                         <goals>

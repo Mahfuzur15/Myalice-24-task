@@ -5,8 +5,8 @@
     <classes>
       <class name="ai.myalice.app.testcase.AllTestCases">
         <methods>
+          <include name="loginFunctionality"/>
           <include name="setup"/>
-          <include name="mangaDetailsModal"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- ai.myalice.app.testcase.AllTestCases -->
