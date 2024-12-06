@@ -73,7 +73,7 @@
                           
                             <testFailureIgnore>true</testFailureIgnore>
                             <includes>
-                                <includesFile>**/*AllTestCases.java</includesFile>
+                                <includesFile>**/*AllTestCases</includesFile>
                             </includes>
                         </configuration>
                        
